@@ -1,0 +1,11 @@
+{
+    "name": "anicloud-ru/animelib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniil Markov",
+            "email": "mistminelol@gmail.com"
+        }
+    ],
+    "require": {}
+}
