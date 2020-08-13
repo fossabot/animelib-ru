@@ -16,6 +16,7 @@ class loader
         $this->including('lib/*.php');
         $this->including('app/views/*.php');
         $this->including('app/views/*/*.php');
+        include_once 'vendor/autoload.php';
     }
 
     /**

@@ -7,5 +7,8 @@
             "email": "mistminelol@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php-ffmpeg/php-ffmpeg": "^0.16.0",
+        "aws/aws-sdk-php": "^3.148"
+    }
 }

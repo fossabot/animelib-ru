@@ -1,0 +1,11 @@
+{
+  "name": "animelib-ru",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anicloud-ru/animelib-ru.git",
+  "author": "Daniil Markov <mistminelol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.733.0"
+  }
+}
