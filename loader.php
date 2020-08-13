@@ -15,7 +15,7 @@ class loader
     {
         $this->including('lib/*.php');
         $this->including('app/views/*.php');
-        $this->including('lib/views/*/*.php');
+        $this->including('app/views/*/*.php');
     }
 
     /**

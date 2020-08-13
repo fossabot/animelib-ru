@@ -10,7 +10,6 @@ class index
         require_once "loader.php";
         new loader();
         new \lib\router();
-        echo 'Hello world!!!';
     }
 }
 

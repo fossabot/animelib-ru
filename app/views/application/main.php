@@ -4,7 +4,7 @@ namespace views\application;
 
 class main
 {
-    public function __construct($yield)
+    public function __construct(string $yield)
     {
         echo
             "<!DOCTYPE html>
