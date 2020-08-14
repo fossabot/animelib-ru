@@ -10,7 +10,7 @@ class router
     {
         if (preg_match('/^\/$/', $_SERVER['REQUEST_URI'], $matchers) == true)
         {
-            $this->render('index.page');
+            $this->render('index_page');
         }
     }
 
