@@ -1,4 +1,11 @@
 <?php
+/** This class not usable */
+/**
+ * Animelib.ru - anime website
+ * @author      Markov Daniil <krraify@yandex.ru>
+ * @version     beta
+ * @date        16.08.2020
+ */
 
 
 namespace lib;
