@@ -16,7 +16,7 @@ class main
     {
         echo
             "<!DOCTYPE html>
-<html lang=\"ru\">
+<html lang='ru'>
     <head>
         <title>Animelib</title>
         <meta charset='UTF-8'>
