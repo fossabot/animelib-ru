@@ -6,6 +6,10 @@
   "author": "Daniil Markov <mistminelol@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.733.0"
+    "aws-sdk": "^2.733.0",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
   }
 }

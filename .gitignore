@@ -3,3 +3,4 @@ vendor
 node_modules
 config/keys.ini
 temp
+dist
