@@ -4,3 +4,5 @@ import bootstrap from 'bootstrap';
 import Turbolinks from 'turbolinks';
 
 Turbolinks.start();
+
+console.log('1');
