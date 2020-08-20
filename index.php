@@ -19,9 +19,8 @@ class index
         $this->start = microtime(true);
         require_once "loader.php";
         new loader();
-        new \lib\router();
+        new \lib\router($this->start);
     }
 }
 
 new index();
-echo "<script>console.log('".round(microtime(true) - $this->start, 4)."');</script>";

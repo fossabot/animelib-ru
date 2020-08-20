@@ -12,7 +12,7 @@ namespace views\application;
 
 class main
 {
-    public function __construct(string $yield)
+    public function __construct(string $yield, float $start)
     {
         echo
             "<!DOCTYPE html>
@@ -43,6 +43,7 @@ class main
             </div>
         </nav>
         $yield
+        <script>console.log('".round(microtime(true) - $start, 4)."');</script>
     </body>
 </html>";
     }
