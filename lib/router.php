@@ -23,6 +23,10 @@ class router
         {
             $this->render((new \views\animes\index())->render(), $start);
         }
+        else
+        {
+            $this->render('404 err', $start);
+        }
     }
 
     /**
