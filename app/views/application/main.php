@@ -35,6 +35,7 @@ class main
                 <ul class='navbar-nav mr-auto'>
                     <li class='nav-item'>
                         <a href='/' class='nav-link'>Главная</a>
+                        <a href='/animes' class='nav-link'>Аниме</a>
                     </li>
                 </ul>
             </div>
