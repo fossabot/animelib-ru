@@ -5,4 +5,4 @@ import Turbolinks from 'turbolinks';
 
 Turbolinks.start();
 
-console.log('1');
+console.log('2');

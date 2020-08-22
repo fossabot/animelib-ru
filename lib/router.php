@@ -17,7 +17,11 @@ class router
     {
         if (preg_match('/^\/$/', $_SERVER['REQUEST_URI'], $matchers) == true)
         {
-            $this->render('index_page', $start);
+            $this->render((new \views\dashboard\dashboard())->render(), $start);
+        }
+        elseif (preg_match('/^\/animes(\/|$)$/i', $_SERVER['REQUEST_URI'], $matchers) == true)
+        {
+            $this->render((new \views\animes\index())->render(), $start);
         }
     }
 
