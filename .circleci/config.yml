@@ -31,11 +31,10 @@ jobs:
           paths:
             - node_modules
       - run:
-        command: |
-          mkdir -p ~/phpunit
-          phpunit -c phpunit.xml --log-junit ~/phpunit/junit.xml
-        when: always
-        - store_test_results:
-            path: ~/phpunit
-        - store_artifacts:
-            path: ~/phpunit
+          command: |
+            mkdir -p ~/phpunit
+            phpunit -c phpunit.xml --log-junit ~/phpunit/junit.xml
+      - store_test_results:
+          path: ~/phpunit
+      - store_artifacts:
+          path: ~/phpunit
