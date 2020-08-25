@@ -40,6 +40,8 @@ jobs:
 
 
   test-js-eslint:
+    docker:
+      - image: circleci/php:7.4.9-node-browsers-legacy
     steps:
       - checkout
 
