@@ -12,7 +12,7 @@ namespace views\animes;
 
 class index
 {
-    public function render()
+    final public function render(): string
     {
         return 'animes_index';
     }
