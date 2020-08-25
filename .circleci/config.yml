@@ -42,7 +42,7 @@ jobs:
       - run:
           command: |
             mkdir -p ~/reports
-            eslint ./app/assets/js --format junit --output-file ~/reports/eslint.xml
+            ./node_modules/.bin/eslint ./app/assets/js --format junit --output-file ~/reports/eslint.xml
       - store_test_results:
           path: ~/reports
       - store_artifacts:
