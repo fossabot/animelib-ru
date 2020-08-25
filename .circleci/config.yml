@@ -30,12 +30,11 @@ jobs:
           key: node-v1-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - steps:
-        - run:
-            command: |
-              mkdir -p ~/phpunit
-              phpunit -c phpunit.xml --log-junit ~/phpunit/junit.xml
-            when: always
+      - run:
+          command: |
+            mkdir -p ~/phpunit
+            phpunit -c phpunit.xml --log-junit ~/phpunit/junit.xml
+          when: always
         - store_test_results:
             path: ~/phpunit
         - store_artifacts:
